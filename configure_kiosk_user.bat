@@ -3,7 +3,7 @@
 rem Remplacer S-1-5-21-XXXXX-XXXXX-XXXXX-XXXXX par le SID réel de kiosk_user - faire un whoami /user depuis le user qui fera kiosk
 set SID=S-1-5-21-XXXXX-XXXXX-XXXXX-XXXXX
 set NAME="kiosk_user"
-set PASS="azerty987"
+set PASS="password"
 set AUTOADMINLOGON="1"
 
 rem Configurer la connexion automatique pour le compte kiosk_user
